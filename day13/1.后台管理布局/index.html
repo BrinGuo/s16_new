@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css"/>
+    <style>
+        body{
+            margin:0;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+        .pg-header {
+            height: 48px;
+            background-color: lavender;
+            line-height: 48px;
+            min-width: 1000px;
+        }
+        .pg-body {
+            min-width: 1000px;
+        }
+        .pg-header .logo{
+            width: 200px;
+            background-color: skyblue;
+            text-align: center;
+            color: white;
+            font-size:larger;
+            font-family: "Arial Black";
+        }
+        .pg-header .user-info a.item{
+            display: inline-block;
+            padding: 0 5px;
+
+        }
+        .pg-header .user-info a.item:hover{
+            background-color: greenyellow;
+        }
+        .pg-header .avatar{
+            height: 30px;
+            width: 30px;
+            padding: 10px 10px;
+            margin-right: 20px;
+        }
+        .pg-header .avatar .user-menu{
+            position: absolute;
+            width: 80px;
+            border: 1px solid #dddddd;
+            top: 48px;
+            right: 3px;
+            display: none;
+            text-align: center;
+            z-index: 100;
+            height: 70px;
+
+        }
+
+        .pg-header .avatar .user-menu a{
+            display: block;
+            margin: 0px;
+            text-decoration: none;
+            height: 30px;
+        }
+        .pg-header .avatar:hover .user-menu{
+            display: block;
+        }
+        .pg-body .menus{
+            position: absolute;
+            top: 48px;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+            width: 200px;
+            background-color: lemonchiffon;
+        }
+        .pg-body .content{
+            position: absolute;
+            top: 48px;
+            right: 0px;
+            left: 200px;
+            bottom: 0px;
+            right: 0px;
+            /*background-color: aliceblue;*/
+            overflow: scroll;
+            min-width: 800px;
+            z-index: 90;
+        }
+    </style>
+</head>
+<body>
+    <div class="pg-header">
+        <div class="logo left">SpaceEye-运维平台</div>
+        <div class="avatar right" style="position: relative">
+            <!--用户头像-->
+            <a ><img style="overflow: hidden;height: 100%;width: 100%;border-radius: 50%" src="baby.png" ></a>
+            <!--用户菜单-->
+            <div class="user-menu">
+                <a  href="#">个人资料</a>
+                <a  href="#">注销用户</a>
+
+            </div>
+        </div>
+        <div class="user-info right">
+
+            <a class="item"><i style="color: red" class="fa fa-heart" aria-hidden="true"></i></a>
+            <a class="item"><i style="color: burlywood" class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a class="item"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+            <a class="item">登录</a>
+            <a class="item">注册</a>
+        </div>
+
+    </div>
+    <div class="pg-body">
+        <div class="menus"></div>
+        <div class="content">
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+            <p>sdfsaf</p>
+
+        </div>
+    </div>
+
+</body>
+</html>

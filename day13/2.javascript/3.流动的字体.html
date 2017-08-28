@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="i1">欢迎,brin.guo光临!!!</div>
+    <script>
+        /*
+        function fun(){
+            //获取标签中间的文字
+            var txt = document.getElementById('i1').innerText;
+            var a = txt.charAt(0);
+            var b = txt.substring(1,txt.length);
+            var newtxt = b+a;
+            //对指定标签中间的内容进行重新赋值
+            document.getElementById('i1').innerText = newtxt
+        }
+
+        //定时器每100毫秒执行一次
+        setInterval(fun,100);
+
+        */
+        //使用匿名函数实现
+        setInterval(function(){
+            var txt = document.getElementById('i1').innerText;
+            var a = txt.charAt(0);
+            var b = txt.substring(1,txt.length);
+            var newtxt = b+a;
+
+            document.getElementById('i1').innerText = newtxt
+        },1000);
+
+    </script>
+
+</body>
+</html>

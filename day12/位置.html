@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .tip {
+            position: fixed;
+            #top:20px;
+            bottom: 30px;
+            right: 30px;
+        }
+        .abs {
+            position: absolute;
+            bottom: 10px;
+            right: 30px;
+            color: chartreuse;
+        }
+        .rel {
+            position: relative;
+            height:300px;
+            width: 300px;
+            background-color: rebeccapurple;
+        }
+        .abs1 {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+   <div class="rel">
+       <div class="abs1">我是 absolute</div>
+   </div>
+   <div style="background-color: #dddddd;height: 4000px;"> </div>
+
+   <div class="tip">返回顶部</div>
+   <div class="abs">返回顶部</div>
+</body>
+</html>
