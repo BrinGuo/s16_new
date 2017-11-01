@@ -1,0 +1,38 @@
+爬虫学习概要
+
+        - pip3 install requests
+        - pip3 install beautifulsoup4
+
+    基本爬虫:
+        - python实现浏览器行为, requests
+        - 实现对 HTML内容进行分析,beautifulsoup4
+        - HTTP相关的知识
+            - cookie
+            - csrf
+            - 请求头
+    性能相关:
+        - 线程池
+        - 进程池
+        - 异步非阻塞 (异步=回调  ,非阻塞=不等待) 遇到IO请求不等待,继续处理其它任务,如果 IO 请求响应内容回来了,自动回调执行某个函数
+            - 协程?
+            - twisted
+            - gevent
+                - greanlet,协程
+                - libevent
+            - asyncio
+            - tornado
+    scrapy框架:
+        - 性能相关  twisted
+        - URL
+        - 对象,#id
+
+    redis-scrapy:
+        -
+
+
+1\实现基本爬虫
+    - 基本获取页面指定内容
+    - 登录账号之后
+        - github
+        - chouti
+        - 博客园
